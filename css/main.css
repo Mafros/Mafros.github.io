@@ -1,0 +1,302 @@
+html {
+    font-family: 'Oswald',sans-serif;
+    background-image: url(../img/PryamBG.jpg);
+}
+
+img {
+    display: inline-block;
+}
+a {
+    transition: 0.3s ease-out;
+}
+
+/* GRID */
+.ctns {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.col-4 {
+    width: 430px;
+    margin-left: 40px;
+    float: left;
+}
+/* HEADER */
+.header1 {
+    background-color: darkmagenta;
+    background-image: url("../img/rwBG.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    height: 100vh;
+    
+    color: white;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.head_tit {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+.head_sl {
+    font-size: 60px;
+    line-height: 40px;
+}
+.head_aro {
+    font-size: 20px;
+    position: absolute;
+    bottom: 50px;
+}
+
+/* Portfolio */
+
+.text1 {
+    background-position: center;
+    color: navajowhite;
+    
+    text-align: center;
+    
+    position: absolute
+    display: flex;
+    flex-direction: column;
+}
+.ct1-tit  a{
+    text-decoration: none;
+    color: navajowhite;
+    border-bottom: 1px solid #FFF;
+} 
+.ct1-tit a:hover{
+    color: darkmagenta;
+    border-color: rgba(0,82,194,0.3);
+}
+.ct1-text {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: navajowhite;
+}
+.ct1-img {
+    width: 450px; 
+}
+
+/* BASEMANT */
+.BaseM {
+    background-color: darkmagenta;
+    color: navajowhite;
+    
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.BaseM p {
+    margin-top: 0px;
+    margin-top: 15px;
+    margin-left: 50px; 
+}
+p.BaseM_Name {
+    font-size: 23px;
+    margin-bottom: 5px;
+    line-height: normal;
+}
+p.BaseM_S {
+    color:navajowhite;
+}
+p.BaseM_I {
+    color: navajowhite;
+    font-size: 32px;
+}
+p.BaseM_I a {
+    color: navajowhite;
+    text-decoration: none;
+    margin-right: 10px;
+}
+p.BaseM_I a:last-child {
+    margin-right: 0px;
+}
+p.BaseM_I a:hover {
+    color: black;
+}
+.button {
+    font-weight: 700;
+    text-decoration: none;
+    color: navajowhite;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    
+    display:  inline-block;
+    
+    border-width: 2px;
+    border-color: navajowhite;
+    border-style: solid;
+    border-radius: 50px;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    
+    margin-bottom: 13px;
+    margin-left: 52px;
+}
+.button:hover {
+    color: black;
+    background-color: navajowhite;
+}
+/* --------------------------------
+
+            PYLOT
+
+---------------------------------*/
+.Pylot1-img {
+    width: 450px;
+}
+.PGC-text {
+    background-color: darkmagenta;
+    color: navajowhite;
+    display: block;
+    max-width: 100%;
+    
+    width: 990px;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button-PGC {
+    font-weight: 700;
+    text-decoration: none;
+    color: navajowhite;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    border-width: 2px;
+    border-color: navajowhite;
+    border-style: solid;
+    border-radius: 50px;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    
+    margin-top: 13px;
+    margin-bottom: 13px;
+    
+}
+.button-PGC:hover {
+    color: black;
+    background-color: navajowhite;
+}
+.Sbutton-PGC {
+    font-weight: 700;
+    text-decoration: none;
+    color: navajowhite;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    border-width: 2px;
+    border-color: darkmagenta;
+    border-style: solid;
+    border-radius: 50px;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-bottom: 13px;
+    
+    background-color: darkmagenta;
+    color: darkmagenta;
+    
+    transition: 5s ease-out;
+}
+.Sbutton-PGC:hover {
+    color: black;
+    background-color: purple;
+}
+/* --------------------------------
+
+            Guy
+
+---------------------------------*/
+.Guy-img {
+    width: 550px;
+}
+.Guy-text {
+    background-color: darkmagenta;
+    color:  navajowhite;
+    display: block;
+    
+    width: 900px;
+    float: right;
+    padding-left: 10px
+}
+/* --------------------------------
+
+            City
+
+---------------------------------*/
+.City-img {
+    width: 450px;
+}
+/* --------------------------------
+
+            Chat Pylot
+
+---------------------------------*/
+.ChatPylot {
+    background-color: darkmagenta;   
+}
+.Cbutton-PGC {
+    font-weight: 700;
+    text-decoration: none;
+    color: navajowhite;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+    background-color: darkmagenta;
+    
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    border-width: 2px;
+    border-color: navajowhite;
+    border-style: solid;
+    border-radius: 50px;
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 23px;
+    padding-right: 23px;
+    
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.Cbutton-PGC:hover {
+    color: black;
+    background-color: purple;
+}
